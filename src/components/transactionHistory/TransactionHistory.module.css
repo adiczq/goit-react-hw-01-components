@@ -1,0 +1,28 @@
+.transactionHistoryTable {
+  margin: 5vh auto;
+}
+.headersRow {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.columnHeader {
+  width: 30%;
+  padding: 1rem 5rem;
+  background-color: #02a7c0;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.valuesRow {
+  width: 33%;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.valuesRow:nth-child(even) {
+  background-color: #c7d6da;
+}
